@@ -1,6 +1,6 @@
-const BUTTON = document.querySelector('.button');
-const LIST = document.querySelector('.content');
-const URL = 'https://api.thecatapi.com/v1/images/search?limit=20';
+const BUTTON = document.querySelector(".button");
+const LIST = document.querySelector(".content");
+const URL = "https://api.thecatapi.com/v1/images/search?limit=20";
 
 
 async function getImagesAPI(list, url){
