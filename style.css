@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite GB S", cursive;
+}
+
+.header {
+    text-align: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.image{
+    border-radius: 5px;
+    height: 140px;
+}
